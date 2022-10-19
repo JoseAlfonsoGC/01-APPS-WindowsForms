@@ -16,5 +16,10 @@ namespace APP_WindowsForms_crud_basic_ADO_NET
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
