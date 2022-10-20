@@ -110,6 +110,7 @@ namespace APP_WindowsForms_crud_basic_ADO_NET
             this.btnGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnEditar
             // 
@@ -119,6 +120,7 @@ namespace APP_WindowsForms_crud_basic_ADO_NET
             this.btnEditar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnEliminar
             // 
@@ -128,6 +130,7 @@ namespace APP_WindowsForms_crud_basic_ADO_NET
             this.btnEliminar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // dataGridView
             // 
@@ -135,6 +138,7 @@ namespace APP_WindowsForms_crud_basic_ADO_NET
             this.dataGridView.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.dataGridView, "dataGridView");
             this.dataGridView.Name = "dataGridView";
+            this.dataGridView.DoubleClick += new System.EventHandler(this.dataGridView_DoubleClick);
             // 
             // pictureBoxBuscarId
             // 
@@ -142,6 +146,7 @@ namespace APP_WindowsForms_crud_basic_ADO_NET
             resources.ApplyResources(this.pictureBoxBuscarId, "pictureBoxBuscarId");
             this.pictureBoxBuscarId.Name = "pictureBoxBuscarId";
             this.pictureBoxBuscarId.TabStop = false;
+            this.pictureBoxBuscarId.Click += new System.EventHandler(this.pictureBoxBuscarId_Click);
             // 
             // pictureBoxBuscarNombre
             // 
@@ -149,6 +154,7 @@ namespace APP_WindowsForms_crud_basic_ADO_NET
             resources.ApplyResources(this.pictureBoxBuscarNombre, "pictureBoxBuscarNombre");
             this.pictureBoxBuscarNombre.Name = "pictureBoxBuscarNombre";
             this.pictureBoxBuscarNombre.TabStop = false;
+            this.pictureBoxBuscarNombre.Click += new System.EventHandler(this.pictureBoxBuscarNombre_Click);
             // 
             // Form1
             // 
